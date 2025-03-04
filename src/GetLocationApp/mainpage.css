@@ -1,0 +1,19 @@
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #d4d4d4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table> thead > tr > th{
+    font-size: 14px;
+    font-weight: bold;
+    color: #d4d4d4;
+    text-align: center;
+}
+table >tbody > tr > td{
+    font-size:14px;
+    color: #e0e0e0;
+    text-align: center;
+}
