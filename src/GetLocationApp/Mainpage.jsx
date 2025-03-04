@@ -6,8 +6,6 @@ const [address,setAddress]=useState("");
         navigator.geolocation.getCurrentPosition((pos)=>{
             if(pos){
                 fetchLocation(pos.coords.latitude,pos.coords.longitude);
-            }else{
-                console.log("Location Not Found")
             }
         })
         
