@@ -24,10 +24,10 @@ const [address,setAddress]=useState("");
           };
     return(
         <>
-        {/* <div className="heading">Get Your Current Location</div> */}
+        <div className="heading">Get Your Current Location</div>
         <div className="container">
             <div className="row">
-                {address==="" && <div className="col-2">
+                {address==="" && <div className="col-sm-4 col-md-4 col-lg-4">
                 <button className="btn btn-primary" onClick={getLocation}>Get Your Location</button>
                 </div>}
                 <div className={`${address===""? `col-10`:`col-12`}`} >
