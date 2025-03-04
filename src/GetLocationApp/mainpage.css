@@ -17,3 +17,11 @@ table >tbody > tr > td{
     color: #e0e0e0;
     text-align: center;
 }
+.footer{
+    font-size: 14px;
+    font-weight: bold;
+    color: #d4d4d4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

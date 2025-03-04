@@ -54,6 +54,11 @@ const [address,setAddress]=useState("");
                 </div>
             </div>
         </div>
+        <footer>
+           <div className="footer">Developed by: <a href="https://www.linkedin.com/in/vikram-bhosale-a14385266/" target="blank">vikram Bhosale</a>
+           </div>
+
+        </footer>
         </>
     )
 }
